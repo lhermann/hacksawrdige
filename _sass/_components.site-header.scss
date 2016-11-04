@@ -1,0 +1,35 @@
+/* ==========================================================================
+   #SITE-HEADER
+   ========================================================================== */
+
+.site-header {
+	&--landing {
+		background-image: url('../img/cover.jpg');
+		background-position: 50% 30%;
+		background-size: cover;
+	}
+}
+
+	.site-header__welcome {
+		color: $color-white;
+		padding: $inuit-global-spacing-unit-large 0;
+
+		@include mq($from: tablet) {
+			padding: $inuit-global-spacing-unit-huge 0;
+		}
+	}
+
+		.site-header__h1 {
+			font-size: 2em;
+			font-weight: 400;
+
+			@include mq($from: tablet) {
+				font-size: 3em;
+			}
+		}
+
+		.site-header__description {
+			@include mq($from: tablet) {
+				font-size: 1.5em;
+			}
+		}

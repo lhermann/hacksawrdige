@@ -1,0 +1,29 @@
+/* ==========================================================================
+   #SITE-FOOTER
+   ========================================================================== */
+
+.site-footer {
+	background: $color-brand-dark;
+	color: $color-brand-light;
+	overflow: auto; // Prevent margin collapse
+	padding: 1.5rem 0 0;
+}
+
+	.site-footer__list {
+		margin-bottom: 0;
+
+		.o-list-inline__item {
+			@include mq($until: desktop) {
+				display: block;
+
+				> a {
+					display: block;
+					padding: $inuit-global-spacing-unit-tiny;
+				}
+
+				&::before {
+					content: '' !important;
+				}
+			}
+		}
+	}

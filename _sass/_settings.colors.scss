@@ -1,0 +1,71 @@
+///* ========================================================================
+//   #COLORS
+//   ======================================================================== */
+
+/**
+ * Brand Colors
+ */
+
+$color-brand-primary:               #4a8ec2;
+$color-brand-primary-lighter:       lighten($color-brand-primary, 10%);
+$color-brand-primary-darker:        darken($color-brand-primary, 10%);
+
+$color-brand-secondary:             #2f4054;
+$color-brand-secondary-lighter:     lighten($color-brand-secondary, 10%);
+$color-brand-secondary-darker:      darken($color-brand-secondary, 15%);
+
+$color-brand-dark:                  #333;
+
+$color-brand-light:                 #eee;
+
+
+$color-black:                       #000;
+$color-dark-gray:                   lighten($color-black, 20%);
+$color-gray:                        lighten($color-black, 50%);
+$color-light-gray:                  lighten($color-black, 95%);
+$color-white:                       #fff;
+
+
+/**
+ * Semantics
+ */
+// Semantic color variables are daisy-chained onto their literal names.
+
+$color-link:                        $color-brand-primary;
+$color-link-hover:                  $color-brand-primary-darker;
+
+$color-nav-link:                    $color-white;
+
+$color-btn:                         #fff;
+$color-btn-bg:                      $color-brand-primary;
+$color-btn-bg-hover:                $color-brand-primary-darker;
+
+$color-secondary-btn:               #fff;
+$color-secondary-btn-bg:            $color-brand-secondary;
+$color-secondary-btn-bg-hover:      $color-brand-secondary-darker;
+
+$color-tertiary-btn:                #fff;
+$color-tertiary-btn-bg:             #449d44;
+$color-tertiary-btn-bg-hover:       #398439;
+
+/**
+ * Gradients
+ */
+$gradient-primary-light:            $color-brand-primary;
+$gradient-primary-dark:             darken($color-brand-primary, 15%);
+
+$gradient-primary:                  linear-gradient(135deg, $gradient-primary-light 0%, $gradient-primary-dark 100%);
+$gradient-primary-hover:            linear-gradient(135deg, darken($gradient-primary-light, 1%) 0%, darken($gradient-primary-dark, 5%) 100%);
+
+$gradient-secondary-light:          $color-brand-secondary;
+$gradient-secondary-dark:           darken($color-brand-secondary, 15%);
+
+$gradient-secondary:                linear-gradient(135deg, $gradient-secondary-light 0%, $gradient-secondary-dark 100%);
+$gradient-secondary-hover:          linear-gradient(135deg, darken($gradient-secondary-light, 1%) 0%, darken($gradient-secondary-dark, 5%) 100%);
+
+
+
+
+
+
+
