@@ -31,6 +31,8 @@ $color-white:                       #fff;
  */
 // Semantic color variables are daisy-chained onto their literal names.
 
+$color-text:                        $color-black;
+
 $color-link:                        $color-brand-primary;
 $color-link-hover:                  $color-brand-primary-darker;
 

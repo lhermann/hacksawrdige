@@ -1,0 +1,26 @@
+/* ==========================================================================
+   #LINKS
+   ========================================================================== */
+
+.c-a {
+    border-bottom: dotted 1px $color-brand-primary;
+    transition: $global-transition;
+    text-transform: uppercase;
+
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+        color: $color-text;
+    }
+
+    &:hover,
+    &:focus {
+        color: $color-brand-primary;
+    }
+}
+
+    .c-a--plain {
+        border-bottom: 0;
+    }

@@ -4,16 +4,20 @@
 
 .c-page {
     background-color: $color-brand-secondary;
-    background-image: url('../img/hacksawridge-bg.jpg');
-    background-size: cover;
-    background-position: center;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+    .c-page--landing {
+        background-image: url('../img/hacksawridge-bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .c-title {
-        text-transform: uppercase;
-        text-align: center;
         font-weight: normal;
+        text-align: center;
+        text-transform: uppercase;
     }
 
         .c-title__sup {
@@ -31,6 +35,6 @@
         }
 
         .c-title__sub {
-            font-weight: normal;
             font-size: 1em;
+            font-weight: normal;
         }

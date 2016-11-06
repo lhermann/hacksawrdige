@@ -1,0 +1,21 @@
+/* ==========================================================================
+   #ORIENTATIONS
+   ========================================================================== */
+
+/**
+ * orientate text and other content
+ *
+ *   <div class="u-content-center"></div>
+ */
+
+$orientations: (
+    left: '-left',
+    right: '-right',
+    center: '-center'
+);
+
+@each $orientation, $orientations-namespace in $orientations {
+    .u-content#{$orientations-namespace} {
+        text-align: $orientation;
+    }
+}

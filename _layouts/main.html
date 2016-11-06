@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="de" class="c-page page page--{{page.title | slugify}} {{layout.page-class}} {{page.page-class}} no-js">
+<html lang="de" class="c-page page page--{{page.url | slugify}} {{layout.page-class}} {{page.page-class}} no-js">
 
     {% include head.html %}
 
     <body>
 
         {{ content }}
+
+        {% include footer.html %}
 
         {% include foot.html %}
     </body>

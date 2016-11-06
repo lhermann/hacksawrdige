@@ -1,5 +1,6 @@
 ---
 layout: main
+page-class: page--home c-page--landing
 ---
 
 <div class="o-wrapper">
@@ -13,19 +14,15 @@ layout: main
             <h2 class="c-title__sub">Krieg machte ihn zum Soldat.<br>Glaube machte ihn zum Helden.</h2>
         </div>
 
-        <div class="o-box o-pack o-pack--auto">
-            <div class="o-pack__item">
-                <a class="c-btn c-btn--doss c-btn--primary" href="#">Desomnd T. Doss</a>
-            </div>
-            <div class="o-pack__item">
-                <a class="c-btn c-btn--doss c-btn--primary" href="#">Seine Autorisierte Biographie</a>
-            </div>
-            <div class="o-pack__item">
-                <a class="c-btn c-btn--doss c-btn--primary" href="#">Videos über den Helden</a>
-            </div>
-            <div class="o-pack__item">
-                <a class="c-btn c-btn--doss c-btn--primary" href="#">Kontakt</a>
-            </div>
+        {% include nav.html %}
+
+        <div class="o-box u-content-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KItJboL0ooU" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="o-box u-content-center">
+            <a href="#" class="c-btn c-btn--primary u-margin-right">Mehr Vieos ansehen</a>
+            <a href="#" class="c-btn c-btn--ghost c-btn--primary">Seine Biographie</a>
         </div>
 
     </div>

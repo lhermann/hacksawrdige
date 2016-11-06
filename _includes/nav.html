@@ -1,19 +1,27 @@
-<nav class="site-nav">
+<nav class="o-box o-box--small c-site-nav">
 
-    <div class="o-wrapper u-center">
+    <ul class="o-list-inline u-content-center">
 
-        <a class="site-nav__child site-nav__logo" href="{{ site.baseurl }}/">
-            <img class="site-logo" src="/apple-touch-icon.png" alt="">
-        </a>
+        <li class="o-list-inline__item">
+            <a class="c-btn c-btn--doss c-btn--primary" name="home" href="/">Home</a>
+        </li>
 
-        <ul class="site-nav__child site-nav__list">
-            {% for page in site.pages %}
-                {% if page.title %}
-                    <li class="site-nav__item"><a href="{{page.url}}" class="site-nav__link  site-nav__{{page.title | slugify}}">{{page.title}}</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
+        <li class="o-list-inline__item">
+            <a class="c-btn c-btn--doss c-btn--primary" name="doss" href="/doss/">Desomnd T. Doss</a>
+        </li>
 
-    </div>
+        <li class="o-list-inline__item">
+            <a class="c-btn c-btn--doss c-btn--primary" name="biographie" href="/biographie/">Autorisierte Biographie</a>
+        </li>
+
+        <li class="o-list-inline__item">
+            <a class="c-btn c-btn--doss c-btn--primary" name="videos" href="/videos/">Videos</a>
+        </li>
+
+        <li class="o-list-inline__item">
+            <a class="c-btn c-btn--doss c-btn--primary" name="kontakt" href="/kontakt/">Kontakt</a>
+        </li>
+
+    </ul>
 
 </nav>

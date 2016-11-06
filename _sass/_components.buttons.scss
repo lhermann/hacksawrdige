@@ -182,15 +182,29 @@ $btn-ghost-border-width: 2px;
     // border-radius: 0;
     padding: ($inuit-global-spacing-unit-small - $btn-ghost-border-width) ($inuit-global-spacing-unit - $btn-ghost-border-width);
     position: relative;
+    text-transform: uppercase;
 
-    &::after {
+    &::before {
         content: '';
         position: absolute;
         left: 20%;
         top: 90%;
         width: 60%;
         border-bottom: $btn-ghost-border-width solid currentColor;
-        transition: border-color $global-transition;
+    }
+
+    &::after {
+        content: '';
+        background-image: url('../img/icon-plus.svg');
+        background-repeat: no-repeat;
+        background-size: 16px;
+        position: absolute;
+        left: calc(50% - 8px);
+        top: 0;
+        width: 16px;
+        height: 16px;
+        opacity: 0;
+        transition: all $global-transition;
     }
 
     &,
@@ -204,10 +218,10 @@ $btn-ghost-border-width: 2px;
     &:hover,
     &:focus {
         color: $color-btn-bg;
-        border-color: $color-btn-bg;
 
         &::after {
-            border-bottom-color: $color-btn-bg;
+            top: -8px;
+            opacity: 1;
         }
     }
 }
