@@ -1,0 +1,12 @@
+/* ==========================================================================
+   #EMBED-BOX
+   ========================================================================== */
+
+.c-embed-box {
+    padding-left: $inuit-global-spacing-unit-small;
+    padding-right: $inuit-global-spacing-unit-small;
+}
+
+.c-embed-box__inner {
+    max-width: 500px;
+}

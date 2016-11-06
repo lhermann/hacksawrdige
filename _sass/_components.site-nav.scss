@@ -2,6 +2,18 @@
    #SITE-NAV
    ========================================================================== */
 
+.c-site-nav {
+
+    @include mq($until: tablet) {
+        .o-list-inline__item {
+            display: block;
+            margin-bottom: $inuit-global-spacing-unit-tiny;
+        }
+    }
+}
+
+
+
 $pages: (
     'home'
     'doss'
