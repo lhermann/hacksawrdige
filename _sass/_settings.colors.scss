@@ -6,11 +6,11 @@
  * Brand Colors
  */
 
-$color-brand-primary:               #4a8ec2;
+$color-brand-primary:               #c70813;
 $color-brand-primary-lighter:       lighten($color-brand-primary, 10%);
 $color-brand-primary-darker:        darken($color-brand-primary, 10%);
 
-$color-brand-secondary:             #2f4054;
+$color-brand-secondary:             #d5d7c7;
 $color-brand-secondary-lighter:     lighten($color-brand-secondary, 10%);
 $color-brand-secondary-darker:      darken($color-brand-secondary, 15%);
 
@@ -40,7 +40,7 @@ $color-btn:                         #fff;
 $color-btn-bg:                      $color-brand-primary;
 $color-btn-bg-hover:                $color-brand-primary-darker;
 
-$color-secondary-btn:               #fff;
+$color-secondary-btn:               #000;
 $color-secondary-btn-bg:            $color-brand-secondary;
 $color-secondary-btn-bg-hover:      $color-brand-secondary-darker;
 

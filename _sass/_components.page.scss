@@ -1,0 +1,36 @@
+/* ==========================================================================
+   #PAGE
+   ========================================================================== */
+
+.c-page {
+    background-color: $color-brand-secondary;
+    background-image: url('../img/hacksawridge-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+    .c-title {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: normal;
+    }
+
+        .c-title__sup {
+            color: $color-brand-primary;
+            font-size: 80%;
+        }
+
+        .c-title__main {
+            font-size: 4em;
+            line-height: 1;
+        }
+
+        .c-title__icon {
+            margin-top: -2em;
+        }
+
+        .c-title__sub {
+            font-weight: normal;
+            font-size: 1em;
+        }
