@@ -38,3 +38,11 @@ exclude:
   - Gemfile.lock
   - node_modules
   - serve.sh
+
+navitems: {
+  home: [ 'Home', / ],
+  doss: [ 'Desmond T. Doss', /doss/ ],
+  biographie: [ 'Autorisierte Biographie', /biographie/ ],
+  videos: [ 'Videos', /videos/ ],
+  kontakt: [ 'Kontakt', /kontakt/ ]
+}

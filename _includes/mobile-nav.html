@@ -1,0 +1,15 @@
+<button name="mobieNavOperator" data="open" class="c-mobile-nav__open c-btn c-btn--ghost c-btn--primary">Menu</button>
+
+<nav class="o-box--large c-mobile-nav">
+
+    <button name="mobieNavOperator" data="close" class="c-mobile-nav__close c-btn c-btn--ghost c-btn--primary">X</button>
+
+    <ul class="c-mobile-nav__list">
+        {% for item in site.navitems %}
+            <li class="c-mobile-nav__item">
+                <a class="c-mobile-nav__link" name="{{ item[0] }}" href="{{ item[1][1] }}">{{ item[1][0] }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+</nav>
