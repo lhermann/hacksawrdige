@@ -136,6 +136,12 @@ $btn-ghost-border-width: 2px;
     padding: ($inuit-global-spacing-unit - $btn-ghost-border-width) ($inuit-global-spacing-unit-large - $btn-ghost-border-width);
   }
 
+  &.c-btn--square {
+        padding: 0;
+        width: 3.1em;
+        height: 3em;
+    }
+
   &.c-btn--primary {
     color: $color-btn-bg;
 

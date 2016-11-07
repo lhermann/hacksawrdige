@@ -3,8 +3,9 @@
    ========================================================================== */
 
 .c-embed-box {
-    padding-left: $inuit-global-spacing-unit-small;
-    padding-right: $inuit-global-spacing-unit-small;
+    margin-left: -$unit;
+    margin-right: -$unit;
+    padding: $unit 0;
 }
 
 .c-embed-box__inner {

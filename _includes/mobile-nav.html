@@ -1,8 +1,17 @@
-<button name="mobieNavOperator" data="open" class="c-mobile-nav__open c-btn c-btn--ghost c-btn--primary">Menu</button>
 
-<nav class="o-box--large c-mobile-nav">
+<div class="o-box o-box--small u-content-center">
+    <button name="mobieNavOperator" data="open" class="c-mobile-nav__open c-btn c-btn--ghost c-btn--primary c-btn--square u-box-center">
+        <span class="icon-menu"></span>
+    </button>
+</div>
 
-    <button name="mobieNavOperator" data="close" class="c-mobile-nav__close c-btn c-btn--ghost c-btn--primary">X</button>
+<nav class="c-mobile-nav">
+
+    <div class="o-box o-box--small u-content-center">
+        <button name="mobieNavOperator" data="close" class="c-mobile-nav__close c-btn c-btn--ghost c-btn--primary c-btn--square">
+            <span class="icon-cancel"></span>
+        </button>
+    </div>
 
     <ul class="c-mobile-nav__list">
         {% for item in site.navitems %}

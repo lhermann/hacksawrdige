@@ -5,7 +5,13 @@
 /**
  * A list that is stacked up to a certain breakpoint and then inline
  *
- * .o-list-responsive@tablet
+ * Example:
+ *      .o-list-responsive@tablet – will stack the list for mobile and inline it for tablet, desktop and wide
+ *
+ * Breakpoints: @mobile @tablet @desktop @wide
+ *
+ * Variatios:
+ *      .o-list-responsive--flush – no space between list elements
  */
 
 $breakpoint-separator: \@;
@@ -39,4 +45,9 @@ $breakpoint-separator: \@;
         }
     }
 
+}
+
+.o-list-responsive--flush .o-list-responsive__item {
+    margin-right: 0;
+    margin-bottom: 0;
 }
