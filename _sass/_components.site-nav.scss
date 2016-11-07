@@ -14,6 +14,8 @@ $pages: (
     'biographie'
     'videos'
     'kontakt'
+    'impressum'
+    'datenschutz'
 );
 
 @each $page in $pages {
