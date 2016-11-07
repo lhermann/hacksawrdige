@@ -32,6 +32,10 @@
 
         .c-title__icon {
             margin-top: -2em;
+
+            @include mq($until: tablet) {
+                width: 20px;
+            }
         }
 
         .c-title__sub {

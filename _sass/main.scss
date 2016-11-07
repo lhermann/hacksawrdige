@@ -120,7 +120,13 @@ $unit: $inuit-global-spacing-unit;
 @import '../node_modules/inuitcss/elements/elements.headings';
 @import '../node_modules/inuitcss/elements/elements.images';
 @import '../node_modules/inuitcss/elements/elements.tables';
+html {
+    font-size: 70%;
 
+    @include mq($from: tablet) {
+        font-size: 100%;
+    }
+}
 
 
 
@@ -140,6 +146,7 @@ $unit: $inuit-global-spacing-unit;
 @import '../node_modules/inuitcss/objects/objects.crop';
 @import '../node_modules/inuitcss/objects/objects.tables';
 @import '../node_modules/inuitcss/objects/objects.pack';
+@import 'objects.list-responsive';
 
 
 

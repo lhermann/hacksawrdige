@@ -1,0 +1,42 @@
+/* ==========================================================================
+   #LIST-RESPONSIVE
+   ========================================================================== */
+
+/**
+ * A list that is stacked up to a certain breakpoint and then inline
+ *
+ * .o-list-responsive@tablet
+ */
+
+$breakpoint-separator: \@;
+
+[class^="o-list-responsive"] {
+    list-style: none;
+    margin-left: 0;
+}
+
+    .o-list-responsive__item {
+        display: block;
+        margin-bottom: $unit;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+
+@each $bp-name, $bp-value in $mq-breakpoints {
+
+    .o-list-responsive#{$breakpoint-separator}#{$bp-name} .o-list-responsive__item {
+        @include mq($from: $bp-name) {
+            display: inline-block;
+            margin-bottom: 0;
+            margin-right: $unit;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+}

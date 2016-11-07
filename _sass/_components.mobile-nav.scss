@@ -2,27 +2,32 @@
    #MOBILE-NAV
    ========================================================================== */
 
+/**
+ * This class is applied to the html tag
+ *
+ * 1. disable scroll on main site when mobile-nav is open
+ */
 .c-page--mobile-nav-open {
-    overflow: hidden;
+    overflow: hidden; /* [1] */
 }
 
 .c-mobile-nav {
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    z-index: 1024;
-    width: 100%;
-    height: 100%;
     background: rgba($color-black, .8);
+    height: 100%;
+    opacity: 0;
     overflow-x: hidden;
     overflow-y: auto;
+    position: absolute;
     transition: $global-transition .2s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 1024;
 
 
     .c-page--mobile-nav-open & {
+        opacity: 1;
         transition: $global-transition;
         visibility: visible;
-        opacity: 1;
     }
 }
 
@@ -49,9 +54,9 @@
         .c-mobile-nav__item {
             border-bottom: 1px solid rgba($color-brand-secondary, .5);
             font-size: 1.4em;
-            text-align: center;
             margin-top: $unit;
             opacity: 0;
+            text-align: center;
 
             &:last-child {
                 border-bottom: 0;
@@ -65,13 +70,16 @@
 
             .c-mobile-nav__link {
                 color: $color-brand-secondary;
-                text-decoration: none;
-                padding: $unit;
                 display: inline-block;
+                padding: $unit;
+                text-decoration: none;
             }
 
 /**
  * Nav Item Animation
+ *
+ * 1. fade-out transition
+ * 2. fade-in transition
  */
 $delay-in: 0;
 $delay-out: .3;
@@ -79,18 +87,14 @@ $delay-out: .3;
 @for $i from 1 through 5 {
 
     .c-mobile-nav__item:nth-child(#{$i}) {
-        transition: $global-transition #{$delay-out}s;
+        transition: $global-transition #{$delay-out}s; /* [1] */
 
         .c-page--mobile-nav-open & {
-            transition: $global-transition #{$delay-in}s;
+            transition: $global-transition #{$delay-in}s; /* [2] */
         }
     }
 
     $delay-in: $delay-in + .05;
     $delay-out: $delay-out - .05;
 }
-
-// .c-mobile-nav__item {
-//     transition: $global-transition 0.1s;
-// }
 
