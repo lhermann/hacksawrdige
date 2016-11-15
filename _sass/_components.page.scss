@@ -4,15 +4,17 @@
 
 .c-page {
     background-color: $color-brand-secondary;
-    background-image: url('../img/hacksawridge-bg-plain.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('../img/hacksawridge-bg-tile.jpg');
+    background-size: 50px 50px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
     .c-page--landing {
-        background-image: url('../img/hacksawridge-bg.jpg');
+        background-image: url('../img/hacksawridge-bg-doss.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     .c-title {

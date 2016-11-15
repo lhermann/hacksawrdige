@@ -2,25 +2,11 @@
 
     <ul class="o-list-responsive@tablet o-list-responsive--flush u-content-center">
 
-        <li class="o-list-responsive__item">
-            <a class="c-btn c-btn--doss c-btn--primary" name="home" href="/">Home</a>
-        </li>
-
-        <li class="o-list-responsive__item">
-            <a class="c-btn c-btn--doss c-btn--primary" name="doss" href="/doss/">Desomnd T. Doss</a>
-        </li>
-
-        <li class="o-list-responsive__item">
-            <a class="c-btn c-btn--doss c-btn--primary" name="biographie" href="/biographie/">Autorisierte Biographie</a>
-        </li>
-
-        <li class="o-list-responsive__item">
-            <a class="c-btn c-btn--doss c-btn--primary" name="videos" href="/videos/">Videos</a>
-        </li>
-
-        <li class="o-list-responsive__item">
-            <a class="c-btn c-btn--doss c-btn--primary" name="kontakt" href="/kontakt/">Kontakt</a>
-        </li>
+        {% for item in site.navitems %}
+            <li class="o-list-responsive__item">
+                <a class="c-btn c-btn--doss c-btn--primary" name="{{ item[0] }}" href="{{ item[1][1] }}">{{ item[1][0] }}</a>
+            </li>
+        {% endfor %}
 
     </ul>
 

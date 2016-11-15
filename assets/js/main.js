@@ -1,4 +1,13 @@
 /**
+ * Resize Sections
+ */
+$(window).resize(function() {
+    $('#height80').css('height', $(window).width() * 0.56).css('max-height', $(window).height() * 0.8);
+});
+$(window).trigger('resize');
+
+
+/**
  * open and close mobile nav
  */
 

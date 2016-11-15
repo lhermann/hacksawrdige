@@ -2,6 +2,7 @@
 layout: page
 title: Desmond T. Doss
 permalink: /doss/
+page-class: c-site-nav--inverted
 ---
 
 # Artes marmoreoque fiuntque palmis caesariem mora Hectoris

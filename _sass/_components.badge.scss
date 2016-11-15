@@ -1,0 +1,13 @@
+/* ==========================================================================
+   #BADGE
+   ========================================================================== */
+
+.c-badge {
+    padding: $unit / 4 $unit / 3;
+    font-weight: 400;
+    font-size: 70%;
+    vertical-align: middle;
+    border: $btn-ghost-border-width solid currentColor;
+    color: $color-brand-primary;
+    margin-right: $unit / 4;
+}

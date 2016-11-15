@@ -2,8 +2,22 @@
    #SITE-NAV
    ========================================================================== */
 
-.c-site-nav {
+.c-page--page {
+    .c-site-nav {
+        background-image: linear-gradient(180deg, rgba($color-brand-secondary, .9) 0%, rgba($color-brand-secondary, .8) 40%, rgba($color-brand-secondary, 0) 100%);
+        padding-bottom: $unit * 2;
+    }
+}
 
+.c-site-nav--inverted {
+    .c-site-nav {
+        background-image: linear-gradient(180deg, rgba($color-black, .6) 0%, rgba($color-black, .5) 40%, rgba($color-black, 0) 100%);
+        padding-bottom: $unit * 2;
+    }
+
+    .c-btn--doss {
+        color: $color-brand-secondary;
+    }
 }
 
 

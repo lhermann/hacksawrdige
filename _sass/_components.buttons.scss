@@ -125,7 +125,7 @@ $btn-ghost-border-width: 2px;
   &:hover,
   &:active,
   &:focus {
-    background: rgba($color-black, .3);
+    background: transparent;
   }
 
   &.c-btn--small {

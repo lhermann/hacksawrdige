@@ -142,6 +142,11 @@ html {
 @import '../node_modules/inuitcss/objects/objects.list-inline';
 @import '../node_modules/inuitcss/objects/objects.box';
 @import '../node_modules/inuitcss/objects/objects.block';
+$inuit-ratios: (
+  (2:1),
+  (4:3),
+  (16:9),
+);
 @import '../node_modules/inuitcss/objects/objects.ratio';
 @import '../node_modules/inuitcss/objects/objects.crop';
 @import '../node_modules/inuitcss/objects/objects.tables';
@@ -155,12 +160,14 @@ html {
 // COMPONENTS
 //
 // Build and include your project’s UI Compoments here.
-@import 'components.page';
 @import 'components.site-header';
 @import 'components.site-nav';
 @import 'components.site-footer';
 @import 'components.mobile-nav';
+@import 'components.page';
+@import 'components.hero';
 @import 'components.buttons';
+@import 'components.badge';
 @import 'components.links';
 @import 'components.embed-box';
 @import '../assets/font/fontello-embedded';
@@ -178,3 +185,31 @@ $inuit-offsets: true;
 @import '../node_modules/inuitcss/utilities/utilities.print';
 @import 'utilities.hide';
 @import 'utilities.orientation';
+
+.u-shadow-inset {
+    box-shadow: 0 -20px 20px -10px rgba($color-black, .3) inset, 0 20px 20px -10px rgba($color-black, .3) inset;
+}
+
+.u-shadow-inset-top {
+    box-shadow: 0 20px 20px -10px rgba($color-black, .3) inset;
+}
+
+.u-shadow-drop-bottom {
+    box-shadow: 0 -10px 20px 20px rgba($color-black, 0.3);
+}
+
+.u-iframe-hide-gap {
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+
+.u-pull-content-into-hero {
+    position: relative;
+
+    > * {
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        z-index: 101;
+    }
+}

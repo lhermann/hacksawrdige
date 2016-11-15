@@ -1,53 +1,152 @@
 ---
-layout: page
+layout: page-full
 title: Videos
 permalink: /videos/
 ---
 
-# Artes marmoreoque fiuntque palmis caesariem mora Hectoris
+<ol class="o-list-bare">
 
-## Atque temptemus tegunt tantum fecit
 
-Lorem markdownum venientis acervos induitur, nec Gange et parentis petam
-habebas. Scelerique septenis arcumque ument, *sub ora* nymphe animo hos
-Cupidinis laudem, Clymeni arma. **Sequiturque avertitur** patitur salute
-pudorem.
+    <li class="o-list-bare__item">
+        <div class="u-pull-content-into-hero">
+            <div class="o-box u-content-center">
 
-- Limosoque trementia aberat ante ibidis sinistrae aequora
-- Terras erat terris quoque sinusque triumphi
-- Timent Cepheaque iuranda quos vestro protinus
+                <h2><span class="c-badge">Video 1</span> Der Anfang</h2>
 
-## Monimenta induit census inperfecta a Titania vires
+            </div>
+        </div>
+        <div class="o-ratio o-ratio--2:1 u-iframe-hide-gap">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s2-1hz1juBI" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </li>
 
-Fratri raptum ne simili lapis deum splendidus Iapygiam natos spectas, modo
-oderat voce fama! Nata opemque temeraria Iuppiter spatio arma terraque et ipse,
-ore, reperitur. [Quid](http://ruit.org/amnis-memorant.html) ad doli, hic aliis
-exhortantur mediis quamvis oblitus insuper Hersilie quatiebant Aurorae, crimen
-*crurumque*. Luminis motibus maduerunt glaebam cibos perdidit redis, ne verba
-Hesioneque adspicit *tactuque* positisque! Telae cursu petiitque, Ecce quot quas
-sero undas fecit morer inerti!
 
-## Quod aquis aut pectoraque poscat noxque propositumque
+    <li class="o-list-bare__item">
+        <div class="o-box u-content-center u-shadow-inset">
 
-Ulixe amor peteret; [caelum](http://www.estnatis.net/ictu.html) pectus et
-mirator canitiem patientem imagine sine. Fatigatum Idalien uti gentes, est
-praeterque neque, horriferum.
+            <h2><span class="c-badge">Video 2</span> Die Ausbildung</h2>
 
-1. Deo dignissima vincere quod violem
-2. Conpescuit gemitus solo cortice properas illa vetustis
-3. Ista quod adnuit superque similis
+        </div>
+        <div class="o-ratio o-ratio--2:1 u-iframe-hide-gap">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s2-1hz1juBI" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </li>
 
-## Sed ortu
 
-Reus exstincto stetimus congrediturque fretumque seductus fugit. Manu tenuit
-videtur! Concilio prius velatus. Possit quid cupit pater sunt, parabat litora.
-Cum iubet haerebat anum, et nescit iuncta mora qui aliter lacrimas parent hirtus
-cuive tergore aeratis experiar erat.
+    <li class="o-list-bare__item">
+        <div class="o-box u-content-center u-shadow-inset">
 
-Abesse tua ad tenebat **hostia ter** metitur auratum inmenso tamen cepisse
-silvae, religaret. Flammis factum et caeleste miserabilis altos, quaesitae causa
-arva mortale Nyctimene. Atrides te semper, et undis, insidiaeque ipse
-stimulosque sensit. Ego Gorgone liquerunt felix quoque spectabere aggeribus
-inlaesos **ora marem** viaeque et Liberfemineae potentia non ait Peleusque
-factis. Erigor sive flectant positoque ardescunt: lingua et quoque admovet, odio
-sed nisi; modo Pergama.
+            <h2><span class="c-badge">Video 3</span> Der Krieg</h2>
+
+        </div>
+        <div class="o-ratio o-ratio--2:1 u-iframe-hide-gap">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s2-1hz1juBI" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </li>
+
+
+    <li class="o-list-bare__item">
+        <div class="o-box u-content-center u-shadow-inset">
+
+            <h2><span class="c-badge">Video 4</span> Der Held</h2>
+
+        </div>
+        <div class="o-ratio o-ratio--2:1 u-iframe-hide-gap">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s2-1hz1juBI" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </li>
+
+
+    <li class="o-list-bare__item u-shadow-drop-bottom">
+        <div class="o-box u-content-center u-shadow-inset">
+
+            <h2><span class="c-badge">Video 5</span> Der Glaube</h2>
+
+        </div>
+        <div class="o-ratio o-ratio--2:1 u-iframe-hide-gap">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s2-1hz1juBI" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </li>
+</ol>
+
+
+<!-- <div class="o-layout">
+    <div class="o-layout__item u-2/3@tablet">
+        <div class="o-ratio o-ratio--16:9">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s2-1hz1juBI" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="o-layout__item u-1/3@tablet">
+        <div class="o-box">
+
+
+            <h1>1. Der Anfang</h1>
+
+
+        </div>
+    </div>
+
+
+    <div class="o-layout__item u-1/3@tablet">
+        <div class="o-box">
+
+
+            <h1>2. Die Ausbildung</h1>
+
+
+        </div>
+    </div>
+    <div class="o-layout__item u-2/3@tablet">
+        <div class="o-ratio o-ratio--16:9">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s2-1hz1juBI" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <div class="o-layout__item u-2/3@tablet">
+        <div class="o-ratio o-ratio--16:9">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s2-1hz1juBI" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="o-layout__item u-1/3@tablet">
+        <div class="o-box">
+
+
+            <h1>3. Der Krieg</h1>
+
+
+        </div>
+    </div>
+
+
+    <div class="o-layout__item u-1/3@tablet">
+        <div class="o-box">
+
+
+            <h1>4. Der Held</h1>
+
+
+        </div>
+    </div>
+    <div class="o-layout__item u-2/3@tablet">
+        <div class="o-ratio o-ratio--16:9">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s2-1hz1juBI" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <div class="o-layout__item u-2/3@tablet">
+        <div class="o-ratio o-ratio--16:9">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s2-1hz1juBI" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="o-layout__item u-1/3@tablet">
+        <div class="o-box">
+
+
+            <h1>5. Die Entscheidung</h1>
+
+
+        </div>
+    </div>
+</div> -->

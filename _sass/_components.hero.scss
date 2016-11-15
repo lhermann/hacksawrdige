@@ -1,0 +1,24 @@
+/* ==========================================================================
+   #PAGE
+   ========================================================================== */
+
+.c-hero {
+    background-color: $color-brand-secondary;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 -20px 20px -10px rgba($color-black, .3) inset;
+
+    &--doss {
+        background-image: url('../img/hacksawridge-header-moh.jpg');
+    }
+
+    &--videos {
+        background-image: url('../img/hacksawridge-header-soldier.jpg');
+    }
+
+    &--biographie {
+        background-image: url('../img/hacksawridge-header-newspaper.jpg');
+    }
+}
