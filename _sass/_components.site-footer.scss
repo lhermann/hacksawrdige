@@ -29,7 +29,7 @@ $footer-height: $unit * 2;
         > img {
             max-height: $footer-height;
             @include mq($until: desktop) {
-                max-height: $footer-height * .8;
+                max-height: $footer-height * .7;
             }
         }
     }
