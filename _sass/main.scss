@@ -76,6 +76,7 @@ $global-radius: 0;
 @import 'settings.colors';
 
 // Reassign `$inuit-global-spacing-unit` to `$unit`.
+$font-size: $inuit-global-font-size;
 $unit: $inuit-global-spacing-unit;
 
 
