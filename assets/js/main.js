@@ -27,6 +27,7 @@ function operateNavMenu( event ) {
     }
 }
 
+// Enable/Disable Scrolling in iPhone/iPad’s Safari
 document.ontouchmove = function (e) {
     if(allowScrolling) {
         // Enable scrolling.

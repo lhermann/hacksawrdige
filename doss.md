@@ -5,50 +5,20 @@ permalink: /doss/
 page-class: c-site-nav--inverted
 ---
 
-# Artes marmoreoque fiuntque palmis caesariem mora Hectoris
+# Das Leben von Desmon T. Doss
 
-## Atque temptemus tegunt tantum fecit
+<img class="u-img u-img--left u-1/3@tablet" src="/assets/img/doss-medal-of-honor.jpg" alt="Desmond Doss bei der verleihung der Medal of Honor">
+Am 01. April 1942 trat Desmond Doss in die US-Armee ein. Dreieinhalb Jahre später stand er auf dem Rasen des Weißen Hauses und erhielt für seinen Mut und seine Tapferkeit im Gefecht die höchste Auszeichnung der Nation. Von den 16 Millionen amerikanischen Männern in Uniform während des 2. Weltkrieges erhielten nur 431 die Ehrenmedaille des Kongresses. Unter ihnen war ein junger Siebenten-Tags-Adventistischer Christ, der sich weigerte eine Waffe zu tragen und nicht einen einzigen feindlichen Soldaten getötet hatte. Seine einzigen Waffen waren seine Bibel und sein Glaube an Gott. Präsident Harry S. Truman hielt die Hand von Unteroffizier Desmond Thomas Doss, als seine ehrenvolle Erwähnung am 12. Oktober 1945 vor der Versammlung am Weißen Haus vorgelesen wurde. „Ich bin stolz auf dich“ sagte Truman. „Du hast das wirklich verdient. Ich betrachtete dies als eine größere Ehre als die Präsidentschaft.“
 
-Lorem markdownum venientis acervos induitur, nec Gange et parentis petam
-habebas. Scelerique septenis arcumque ument, *sub ora* nymphe animo hos
-Cupidinis laudem, Clymeni arma. **Sequiturque avertitur** patitur salute
-pudorem.
+Als Pearl Harbor angegriffen wurde, arbeitete Desmond auf der Marinewerft von Newport News und hätte einen Einzugsaufschub erbitten können. Aber er war bereit, sein Leben an der Front zu riskieren, um die Freiheit zu bewahren. Er wollte ein Armeesanitäter sein und nahm an, dass er als klassifizierter Kriegsdienstverweigerer keine Waffe tragen müsse. Als er einer Infanterie-Schützenkompanie zugeordnet wurde, brachte seine Weigerung, Waffen zu tragen, seine Mitsoldaten dazu, ihn mit Verachtung zu behandeln. Sie ächteten und mobbten ihn. Ein Mann warnte ihn: „Desmond, wenn wir ins Gefecht ziehen, werde ich dafür sorgen, dass du nicht lebendig wiederkommst.“
 
-- Limosoque trementia aberat ante ibidis sinistrae aequora
-- Terras erat terris quoque sinusque triumphi
-- Timent Cepheaque iuranda quos vestro protinus
+<img class="u-img u-img--right u-1/3@tablet" src="/assets/img/doss-glaube-bibel.jpg" alt="Desmond Doss mit seiner Bibel">
+Desmond wurde mit einem glühenden Glauben an die Bibel erzogen. Er nahm die Zehn Gebote persönlich – insbesondere die Worte: „Du sollst nicht töten“. Er nahm auch das Vierte Gebot ernst. Seine religiöse Erziehung beinhaltete auch den wöchentlichen Kirchenbesuch am Siebenten Tag. Die Armee reagierte genervt, als er jeden Samstag um Freigang bat, damit er eine Kirche besuchen konnte. Seine Offiziere sahen in ihm eine Belastung, ein leise sprechender, schlaksiger Junge aus dem Süden und ein Bibellesender Eigenbrötler. Sie versuchten, ihn einzuschüchtern, gaben ihm Extra-Pflichten, erklärten ihn fälschlicherweise für mental unfähig und versuchten ihn, vor ein Kriegsgericht zu stellen. Er glaubte, dass es seine Pflicht sei, Gott und dem Land zu dienen – in dieser Reihenfolge; und so weigerte er sich, zu gehen.
 
-## Monimenta induit census inperfecta a Titania vires
+<img class="u-img u-img--left u-1/3@tablet" src="/assets/img/doss-hacksaw-ridge.jpg" alt="Desmond Doss in der Schlacht von Okinawa">
+Desmond diente in den Gefechten um Guam und Leyte. In jeder militärischen Operation offenbarte er außergewöhnlichen Einsatz für seine Männer. Während andere Leben nahmen, war er damit beschäftigt, Leben zu retten. Während feindliche Kugeln an ihm vorbeisausten und Granaten um ihn herum explodierten, lief er wiederholt, um einen gefallenen Kameraden zu behandeln und ihn in Sicherheit zu bringen. Als sie Okinawa erreichten, waren ihm bereits zwei bronzene Tapferkeitsmedaillen verliehen worden.
+Im Mai 1945 verteidigten japanische Truppen Okinawa, das letzte verbleibende Hindernis für eine alliierte Invasion ihres Heimatlandes, mit großem Eifer. Das Ziel der Amerikaner war die Eroberung des Maeda-Steilabhanges, eine eindrucksvolle Felswand, die von den Soldaten „Hacksaw Ridge“ (deutsch etwa: „Metallsägen – Bergrücken“) genannt wurde. Als sie die Anhöhe des Kliffs gesichert hatten, attackierten japanische Streitkräfte unerwartet. Offiziere befahlen den sofortigen Rückzug. Doch mindestens einhundert Männer lagen verwundet und sterbend auf feindlichem Gebiet, und so missachtete ein einsamer Soldat diesen Befehl und rannte in das Gefechtsfeuer zurück. Mit einem beständigen Gebet auf seinen Lippen, nahm er sich vor, so viele wie nur möglich zu retten, bevor er zusammenbrechen oder bei dem Versuch sterben würde. Sein eiserner Wille und seine unermüdliche Tapferkeit retteten an diesem Tag mindestens 75 Leben.
 
-Fratri raptum ne simili lapis deum splendidus Iapygiam natos spectas, modo
-oderat voce fama! Nata opemque temeraria Iuppiter spatio arma terraque et ipse,
-ore, reperitur. [Quid](http://ruit.org/amnis-memorant.html) ad doli, hic aliis
-exhortantur mediis quamvis oblitus insuper Hersilie quatiebant Aurorae, crimen
-*crurumque*. Luminis motibus maduerunt glaebam cibos perdidit redis, ne verba
-Hesioneque adspicit *tactuque* positisque! Telae cursu petiitque, Ecce quot quas
-sero undas fecit morer inerti!
-
-## Quod aquis aut pectoraque poscat noxque propositumque
-
-Ulixe amor peteret; [caelum](http://www.estnatis.net/ictu.html) pectus et
-mirator canitiem patientem imagine sine. Fatigatum Idalien uti gentes, est
-praeterque neque, horriferum.
-
-1. Deo dignissima vincere quod violem
-2. Conpescuit gemitus solo cortice properas illa vetustis
-3. Ista quod adnuit superque similis
-
-## Sed ortu
-
-Reus exstincto stetimus congrediturque fretumque seductus fugit. Manu tenuit
-videtur! Concilio prius velatus. Possit quid cupit pater sunt, parabat litora.
-Cum iubet haerebat anum, et nescit iuncta mora qui aliter lacrimas parent hirtus
-cuive tergore aeratis experiar erat.
-
-Abesse tua ad tenebat **hostia ter** metitur auratum inmenso tamen cepisse
-silvae, religaret. Flammis factum et caeleste miserabilis altos, quaesitae causa
-arva mortale Nyctimene. Atrides te semper, et undis, insidiaeque ipse
-stimulosque sensit. Ego Gorgone liquerunt felix quoque spectabere aggeribus
-inlaesos **ora marem** viaeque et Liberfemineae potentia non ait Peleusque
-factis. Erigor sive flectant positoque ardescunt: lingua et quoque admovet, odio
-sed nisi; modo Pergama.
+<img class="u-img u-img--right u-1/4@tablet" src="/assets/img/doss-verwundet.jpg" alt="Desmond Doss vom Scharfschützen verwundet">
+Etliche Tage später, während eines missglückten Nachtüberfalls, wurde Desmond schwer verwundet. Er lag mit zwei Schützen in einem Granattrichter, als eine japanische Granate zu seinen Füßen landete. Die Explosion ließ ihn davonfliegen. Die Splitter rissen sein Bein und seine Hüfte auf. Beim Versuch in Sicherheit zu kommen, wurde er von einem japanischen Scharfschützen getroffen, der seinen Arm zertrümmerte. Seine mutigen Taten als Gefechtssanitäter waren vorbei. Aber selbst jetzt bestand er darauf, dass die Träger seiner Bahre zuerst einen anderen Mann retten sollten. Verwundet, schmerzerfüllt und Blut verlierend, war ihm die Sicherheit anderer noch immer wichtiger als seine eigene.
+Bevor er 1946 mit Ehren aus der Armee entlassen wurde, war Tuberkulose bei ihm ausgebrochen. Seine Krankheit schritt voran und am 23. März 2006 starb Unteroffizier Desmond Doss mit 87 Jahren. Er ist auf dem Nationalfriedhof in Chattanooga, Tennessee, begraben.

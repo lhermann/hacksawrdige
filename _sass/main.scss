@@ -153,7 +153,12 @@ $inuit-ratios: (
 @import '../node_modules/inuitcss/objects/objects.pack';
 @import 'objects.list-responsive';
 
-
+.o-box--article {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
 
 
 
@@ -172,7 +177,9 @@ $inuit-ratios: (
 @import 'components.embed-box';
 @import '../assets/font/fontello-embedded';
 
-
+.c-lead {
+    font-size: 120%;
+}
 
 
 
@@ -212,4 +219,36 @@ $inuit-offsets: true;
         width: 100%;
         z-index: 101;
     }
+}
+
+.u-img {
+    padding-bottom: $unit / 2;
+
+    &--left {
+        float: left;
+        padding-right: $unit / 2;
+        margin-left: -($unit * 2);
+    }
+
+    &--right {
+        float: right;
+        padding-left: $unit / 2;
+        margin-right: -($unit * 2);
+    }
+
+    &--center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @include mq($until: tablet) {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.u-color-primary {
+    color: $color-brand-primary;
 }
