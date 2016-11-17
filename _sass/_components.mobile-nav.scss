@@ -8,7 +8,10 @@
  * 1. disable scroll on main site when mobile-nav is open
  */
 .c-page--mobile-nav-open {
-    overflow: hidden; /* [1] */
+    &,
+    body {
+        overflow: hidden; /* [1] */
+    }
 }
 
 .c-mobile-nav {

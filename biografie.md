@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Authorisierte Biographie
-permalink: /biographie/
+title: Autorisierte Biografie
+permalink: /biografie/
 ---
 
 # Artes marmoreoque fiuntque palmis caesariem mora Hectoris

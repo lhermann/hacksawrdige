@@ -43,5 +43,5 @@ navitems: {
   home: [ 'Home', / ],
   videos: [ 'Videos', /videos/ ],
   doss: [ 'Desmond T. Doss', /doss/ ],
-  biographie: [ 'Autorisierte Biographie', /biographie/ ]
+  biografie: [ 'Autorisierte Biografie', /biografie/ ]
 }
