@@ -5,7 +5,7 @@ permalink: /doss/
 page-class: c-site-nav--inverted
 ---
 
-# Das Leben von Desmon T. Doss
+# Das Leben von Desmond T. Doss
 
 <img class="u-img u-img--left u-1/3@tablet" src="/assets/img/doss-medal-of-honor.jpg" alt="Desmond Doss bei der verleihung der Medal of Honor">
 Am 01. April 1942 trat Desmond Doss in die US-Armee ein. Dreieinhalb Jahre später stand er auf dem Rasen des Weißen Hauses und erhielt für seinen Mut und seine Tapferkeit im Gefecht die höchste Auszeichnung der Nation. Von den 16 Millionen amerikanischen Männern in Uniform während des 2. Weltkrieges erhielten nur 431 die Ehrenmedaille des Kongresses. Unter ihnen war ein junger Siebenten-Tags-Adventistischer Christ, der sich weigerte eine Waffe zu tragen und nicht einen einzigen feindlichen Soldaten getötet hatte. Seine einzigen Waffen waren seine Bibel und sein Glaube an Gott. Präsident Harry S. Truman hielt die Hand von Unteroffizier Desmond Thomas Doss, als seine ehrenvolle Erwähnung am 12. Oktober 1945 vor der Versammlung am Weißen Haus vorgelesen wurde. „Ich bin stolz auf dich“ sagte Truman. „Du hast das wirklich verdient. Ich betrachtete dies als eine größere Ehre als die Präsidentschaft.“

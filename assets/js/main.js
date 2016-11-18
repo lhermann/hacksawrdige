@@ -37,3 +37,16 @@ document.ontouchmove = function (e) {
         e.preventDefault();
     }
 }
+
+
+/**
+ * Reveal Order Form
+ */
+
+$("#showForm1").on("click", function(event){
+    $(this).hide();
+    $("#Form1").fadeIn();
+});
+
+
+

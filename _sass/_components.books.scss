@@ -1,0 +1,31 @@
+/* ==========================================================================
+   #BOOKS
+   ========================================================================== */
+
+// .c-book {
+
+// }
+
+    .c-book__title {
+        margin-bottom: 0;
+    }
+
+    .c-book__subtitle {
+        color: $color-brand-primary;
+        font-size: 100%;
+        font-weight: 400;
+    }
+
+    .c-book__price {
+        span {
+            color: $color-brand-primary;
+            font-size: 200%;
+        }
+    }
+
+    .c-book__form {
+        padding: $unit / 2;
+        border: 2px solid $color-brand-primary;
+        margin-top: $unit;
+        display: none;
+    }
