@@ -3,6 +3,7 @@ layout: page
 title: Desmond T. Doss
 permalink: /doss/
 page-class: c-site-nav--inverted
+container-class: o-box--justify
 ---
 
 # Das Leben von Desmond T. Doss

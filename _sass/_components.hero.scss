@@ -21,4 +21,12 @@
     &--biografie {
         background-image: url('../img/hacksawridge-header-newspaper.jpg');
     }
+
+    &--no-hero {
+        box-shadow: none;
+        background: none;
+        .c-site-nav {
+            padding-bottom: $unit / 2;
+        }
+    }
 }
