@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-no-hero
 title: Impressum
 permalink: /impressum/
 ---
