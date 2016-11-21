@@ -2,6 +2,7 @@
 layout: page
 title: Autorisierte Biografie
 permalink: /biografie/
+og-image: hacksawridge-teaser-biografie.jpg
 ---
 
 # Die autorisierte Biografie vom Helden von Hacksaw Ridge

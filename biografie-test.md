@@ -2,6 +2,7 @@
 layout: page
 title: Autorisierte Biografie
 permalink: /biografie-test/
+og-image: hacksawridge-teaser-biografie.jpg
 ---
 
 <div class="o-media o-media@tablet u-margin-bottom">

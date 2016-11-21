@@ -2,6 +2,7 @@
 layout: page-full
 title: Videos
 permalink: /videos/
+og-image: hacksawridge-teaser-videos.jpg
 ---
 
 <ol class="o-list-bare">
