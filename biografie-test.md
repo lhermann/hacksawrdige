@@ -20,7 +20,7 @@ og-image: hacksawridge-teaser-biografie.jpg
             <form id="book1Form" class="c-form c-book__form" name="bestellung" action="danke" netlify>
                 <input name="Buchtitel" type="hidden" value="Der Held von Hacksaw Ridge">
                 <input id="book1PriceInput" name="Preis" type="hidden" value="7,95">
-                <input id="book1ShippingInput" name="Preis" type="hidden" value="2,75">
+                <input id="book1ShippingInput" name="Preis" type="hidden" value="1,00">
                 <input id="book1TotalInput" name="Preis" type="hidden" value="10,70">
                 <div class="o-layout c-form__row">
                     <div class="o-layout__item u-1/3">
@@ -31,7 +31,7 @@ og-image: hacksawridge-teaser-biografie.jpg
                         <input id="book1AmountInput" class="c-form__input c-form__input--inline" type="number" min="1" name="Anzahl" value="1" style="width: 42px;">
                         <br><span id="book1Price" class="c-form__price">7,95 EUR</span>
                         <div class="c-form__smallprint">
-                            zzgl. Versand <span id="book1Shipping">2,75 EUR</span>
+                            zzgl. <span id="book1Shipping">1,00 EUR</span> Versand innerhalb Deutschlands
                         </div>
                     </div>
                     <div class="o-layout__item u-2/3">

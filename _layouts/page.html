@@ -17,7 +17,10 @@ page-class: c-page--page
 
         {{ content }}
 
+
     </article>
+
+    {%if page.advertiser %}{% include advertiser.html %}{% endif %}
 
 </div>
 

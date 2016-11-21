@@ -1,0 +1,14 @@
+/* ==========================================================================
+   #CIRCLE
+   ========================================================================== */
+
+.c-circle {
+    border: $unit / 2 solid $color-brand-primary;
+    border-radius: 500px;
+    display: inline-block;
+    padding: $unit;
+
+    &--green {
+        border-color: $color-green;
+    }
+}

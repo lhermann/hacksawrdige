@@ -5,6 +5,7 @@ permalink: /doss/
 page-class: c-site-nav--inverted
 container-class: o-box--justify
 og-image: hacksawridge-header-moh.jpg
+advertiser: true
 ---
 
 # Das Leben von Desmond T. Doss

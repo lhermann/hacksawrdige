@@ -121,6 +121,11 @@ html {
     }
 }
 
+hr {
+    border: 0;
+    border-bottom: 1px solid $color-brand-primary;
+}
+
 
 
 
@@ -183,6 +188,7 @@ $inuit-ratios: (
 @import 'components.embed-box';
 @import 'components.books';
 @import 'components.forms';
+@import 'components.circle';
 @import '../assets/font/fontello-embedded';
 
 .c-lead {
