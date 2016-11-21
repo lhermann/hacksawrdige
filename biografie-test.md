@@ -4,8 +4,8 @@ title: Autorisierte Biografie
 permalink: /biografie-test/
 ---
 
-<div class="o-media u-margin-bottom">
-    <div class="o-media__img u-1/3">
+<div class="o-media o-media@tablet u-margin-bottom">
+    <div class="o-media__img u-1/3@tablet">
         <img class="u-img" src="/assets/img/doss-autorisierte-biografie.jpg" alt="Die autorisierte Biografie von Desmond Doss">
     </div>
     <div class="o-media__body c-book">
@@ -18,17 +18,19 @@ permalink: /biografie-test/
         <!-- <div class="o-box o-box--small"> -->
             <form id="book1Form" class="c-form c-book__form" name="bestellung" action="danke" netlify>
                 <input name="Buchtitel" type="hidden" value="Der Held von Hacksaw Ridge">
-                <input id="book1PriceInput" name="Preis" type="hidden" value="9,70">
+                <input id="book1PriceInput" name="Preis" type="hidden" value="7,95">
+                <input id="book1ShippingInput" name="Preis" type="hidden" value="2,75">
+                <input id="book1TotalInput" name="Preis" type="hidden" value="10,70">
                 <div class="o-layout c-form__row">
                     <div class="o-layout__item u-1/3">
                         <div class="c-form__smallprint">
                             Versand ab dem 20.12.2016
                         </div>
                         <label for="book1AmountInput">Anzahl</label>
-                        <input id="book1AmountInput" class="c-form__input c-form__input--inline" type="number" name="Anzahl" value="1" style="width: 42px;">
-                        <br><span id="book1Price" class="c-form__price">7,90 EUR</span>
+                        <input id="book1AmountInput" class="c-form__input c-form__input--inline" type="number" min="1" name="Anzahl" value="1" style="width: 42px;">
+                        <br><span id="book1Price" class="c-form__price">7,95 EUR</span>
                         <div class="c-form__smallprint">
-                            zzgl. Versand 3,00 EUR
+                            zzgl. Versand <span id="book1Shipping">2,75 EUR</span>
                         </div>
                     </div>
                     <div class="o-layout__item u-2/3">
@@ -45,28 +47,28 @@ permalink: /biografie-test/
                 </div>
                 <div class="c-form__row">
                     <label for="name">Vor- und Nachname</label>
-                    <input id="name" class="c-form__input" type="text" name="Name">
+                    <input id="name" class="c-form__input" type="text" name="Name" required>
                 </div>
                 <div class="c-form__row">
                     <label for="mail">E-Mail</label>
-                    <input id="mail" class="c-form__input" type="email" name="Email">
+                    <input id="mail" class="c-form__input" type="email" name="Email" required>
                 </div>
                 <div class="o-layout c-form__row">
                     <div class="o-layout__item u-1/2">
                         <label for="address">Straße und Hausnummer</label>
-                        <input class="c-form__input" id="address" type="text" name="Adresse" autocomplete="street-address">
+                        <input class="c-form__input" id="address" type="text" name="Adresse" autocomplete="street-address" required>
                     </div>
                     <div class="o-layout__item u-1/2">
                         <label for="city">Stadt</label>
-                        <input class="c-form__input" id="city" type="text" name="Stadt" autocomplete="city">
+                        <input class="c-form__input" id="city" type="text" name="Stadt" autocomplete="city" required>
                     </div>
                     <div class="o-layout__item u-1/2">
                         <label for="zip">Postleitzahl</label>
-                        <input class="c-form__input" id="zip" type="text" name="Postleitzahl" autocomplete="postal-code">
+                        <input class="c-form__input" id="zip" type="text" name="Postleitzahl" autocomplete="postal-code" required>
                     </div>
                     <div class="o-layout__item u-1/2">
                         <label for="country">Land</label>
-                        <select id="country" class="c-form__input" name="Land" autocomplete="country">
+                        <select id="country" class="c-form__input" name="Land" autocomplete="country" required>
                             <option>Deutschland</option>
                             <option>Österreich</option>
                             <option>Schweiz</option>
@@ -87,6 +89,32 @@ permalink: /biografie-test/
         <!-- </div> -->
     </div>
 </div>
+
+<script type="text/javascript" src="/assets/js/validate.min.js"></script>
+<script>
+    var validator = new FormValidator('bestellung', [{
+        name: 'Name',
+        rules: 'required'
+    }, {
+        name: 'Email',
+        rules: 'required|valid_email'
+    }, {
+        name: 'Adresse',
+        rules: 'required'
+    }, {
+        name: 'Stadt',
+        rules: 'required'
+    }, {
+        name: 'Postleitzahl',
+        rules: 'required'
+    }], function(errors, event) {
+        if (errors.length > 0) {
+            for (var i = 0; i < errors.length; i++) {
+                $("#"+errors[i].id).addClass('c-form__invalid');
+            }
+        }
+    });
+</script>
 
 
 

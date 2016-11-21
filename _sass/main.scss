@@ -147,13 +147,23 @@ $inuit-ratios: (
 @import 'objects.list-responsive';
 
 .o-box--article {
-    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 800px;
 }
 
 .o-box--justify {
     text-align: justify;
+}
+
+.o-media\@tablet {
+    @include mq($until: tablet) {
+        .o-media__img,
+        .o-media__body {
+            float: none;
+            margin-right: 0;
+        }
+    }
 }
 
 
