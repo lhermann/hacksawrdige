@@ -20,8 +20,8 @@ og-image: hacksawridge-teaser-biografie.jpg
             <form id="book1Form" class="c-form c-book__form" name="bestellung" action="danke" netlify>
                 <input name="Buchtitel" type="hidden" value="Der Held von Hacksaw Ridge">
                 <input id="book1PriceInput" name="Preis" type="hidden" value="7,95">
-                <input id="book1ShippingInput" name="Preis" type="hidden" value="1,00">
-                <input id="book1TotalInput" name="Preis" type="hidden" value="10,70">
+                <input id="book1ShippingInput" name="ShippingPreis" type="hidden" value="1,00">
+                <input id="book1TotalInput" name="GesamtPreis" type="hidden" value="10,70">
                 <div class="o-layout c-form__row">
                     <div class="o-layout__item u-1/3@tablet">
                         <div class="c-form__smallprint">
