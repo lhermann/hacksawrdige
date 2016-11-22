@@ -20,6 +20,12 @@ $orientations: (
     }
 }
 
+.u-content-center\@mobile {
+    @include mq($until: tablet) {
+        text-align: center !important;
+    }
+}
+
 
 .u-box-center {
     margin-left: auto;

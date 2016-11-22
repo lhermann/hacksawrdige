@@ -23,7 +23,7 @@ og-image: hacksawridge-teaser-biografie.jpg
                 <input id="book1ShippingInput" name="Preis" type="hidden" value="1,00">
                 <input id="book1TotalInput" name="Preis" type="hidden" value="10,70">
                 <div class="o-layout c-form__row">
-                    <div class="o-layout__item u-1/3">
+                    <div class="o-layout__item u-1/3@tablet">
                         <div class="c-form__smallprint">
                             Versand ab dem 20.12.2016
                         </div>
@@ -34,7 +34,7 @@ og-image: hacksawridge-teaser-biografie.jpg
                             zzgl. <span id="book1Shipping">1,00 EUR</span> Versand innerhalb Deutschlands
                         </div>
                     </div>
-                    <div class="o-layout__item u-2/3">
+                    <div class="o-layout__item u-2/3@tablet">
                         Staffelpreise:
                         <ul>
                             <li>1 Stk.: 7,95 Euro</li>
@@ -55,19 +55,19 @@ og-image: hacksawridge-teaser-biografie.jpg
                     <input id="mail" class="c-form__input" type="email" name="Email" required>
                 </div>
                 <div class="o-layout c-form__row">
-                    <div class="o-layout__item u-1/2">
+                    <div class="o-layout__item u-1/2@tablet">
                         <label for="address">Straße und Hausnummer</label>
                         <input class="c-form__input" id="address" type="text" name="Adresse" autocomplete="street-address" required>
                     </div>
-                    <div class="o-layout__item u-1/2">
+                    <div class="o-layout__item u-1/2@tablet">
                         <label for="city">Stadt</label>
                         <input class="c-form__input" id="city" type="text" name="Stadt" autocomplete="city" required>
                     </div>
-                    <div class="o-layout__item u-1/2">
+                    <div class="o-layout__item u-1/2@tablet">
                         <label for="zip">Postleitzahl</label>
                         <input class="c-form__input" id="zip" type="text" name="Postleitzahl" autocomplete="postal-code" required>
                     </div>
-                    <div class="o-layout__item u-1/2">
+                    <div class="o-layout__item u-1/2@tablet">
                         <label for="country">Land</label>
                         <select id="country" class="c-form__input" name="Land" autocomplete="country" required>
                             <option>Deutschland</option>
