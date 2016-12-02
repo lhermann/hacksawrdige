@@ -8,7 +8,7 @@ og-image: hacksawridge-teaser-biografie.jpg
 <div class="o-media o-media@tablet u-margin-bottom">
     <div class="o-media__img u-1/3@tablet">
         <img class="u-img" src="/assets/img/doss-autorisierte-biografie.jpg" alt="Die autorisierte Biografie von Desmond Doss">
-    </div>kkkk
+    </div>
     <div class="o-media__body c-book">
         <h2 class="c-book__title">Der Held von Hacksaw Ridge</h2>
         <h3 class="c-book__subtitle">Die autorisierte Biografie von Desmond Doss</h3>
