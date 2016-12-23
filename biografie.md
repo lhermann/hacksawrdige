@@ -13,7 +13,6 @@ og-image: hacksawridge-teaser-biografie.jpg
         <h2 class="c-book__title">Der Held von Hacksaw Ridge</h2>
         <h3 class="c-book__subtitle">Die autorisierte Biografie von Desmond Doss</h3>
         <p class="c-book__description">Desmonds dramatische, wahre Geschichte der Integrität, der Erlösung und des Heldentums wird auch Sie inspirieren, mutig nach Ihren Überzeugungen zu leben.</p>
-        <p>Ab dem 20.12.2016 auf Deutsch!</p>
         <p class="c-book__price">EUR <span>7,95</span></p>
         <button id="showBook1Form" class="c-btn c-btn--primary c-btn--ghost">Bestellformular anzeigen</button>
         <!-- <div class="o-box o-box--small"> -->
@@ -22,28 +21,12 @@ og-image: hacksawridge-teaser-biografie.jpg
                 <input id="book1PriceInput" name="Preis" type="hidden" value="7,95">
                 <input id="book1ShippingInput" name="ShippingPreis" type="hidden" value="1,00">
                 <input id="book1TotalInput" name="GesamtPreis" type="hidden" value="10,70">
-                <div class="o-layout c-form__row">
-                    <div class="o-layout__item u-1/3@tablet">
-                        <div class="c-form__smallprint">
-                            Versand ab dem 20.12.2016
-                        </div>
-                        <label for="book1AmountInput">Anzahl</label>
-                        <input id="book1AmountInput" class="c-form__input c-form__input--inline" type="number" min="1" name="Anzahl" value="1" style="width: 42px;">
-                        <br><span id="book1Price" class="c-form__price">7,95 EUR</span>
-                        <div class="c-form__smallprint">
-                            zzgl. <span id="book1Shipping">1,00 EUR</span> Versand innerhalb Deutschlands
-                        </div>
-                    </div>
-                    <div class="o-layout__item u-2/3@tablet">
-                        Staffelpreise:
-                        <ul>
-                            <li>1 Stk.: 7,95 Euro</li>
-                            <li>ab 10 Stk.: 3,00 Euro/Stück</li>
-                            <li>ab 50 Stk.: 2,00 Euro/Stück</li>
-                            <li>ab 100 Stk.: 1,50 Euro/Stück</li>
-                            <li>ab 500 Stk.: 1,25 Euro/Stück</li>
-                            <li>ab 1000 Stk.: 1,00 Euro/Stück</li>
-                        </ul>
+                <div class="c-form__row">
+                    <label for="book1AmountInput">Anzahl</label>
+                    <input id="book1AmountInput" class="c-form__input c-form__input--inline" type="number" min="1" name="Anzahl" value="1" style="width: 42px;">
+                    <br><span id="book1Price" class="c-form__price">7,95 EUR</span>
+                    <div class="c-form__smallprint">
+                        zzgl. <span id="book1Shipping">1,00 EUR</span> Versand innerhalb Deutschlands
                     </div>
                 </div>
                 <div class="c-form__row">

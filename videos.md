@@ -35,7 +35,18 @@ og-image: hacksawridge-teaser-videos.jpg
     <li class="o-list-bare__item">
         <div class="o-box u-content-center">
 
-            <h2><span class="c-badge">Video 3/5</span> coming soon ...</h2>
+            <h2><span class="c-badge">Video 3/5</span> Die Bewährung eures Glaubens ...</h2>
+
+        </div>
+        <div class="o-ratio o-ratio--16:9 u-max-720 u-box-center">
+            <iframe width="100%" height="100%" src="https://embed.joelmediatv.de/05563" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </li>
+
+    <li class="o-list-bare__item">
+        <div class="o-box u-content-center">
+
+            <h2><span class="c-badge">Video 4/5</span> coming soon ...</h2>
 
         </div>
         <!-- <div class="o-ratio o-ratio--16:9 u-max-720 u-box-center">
