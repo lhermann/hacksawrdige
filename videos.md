@@ -13,7 +13,7 @@ advertiser: true
         <div class="u-pull-content-into-hero">
             <div class="o-box u-content-center">
 
-                <h2><span class="c-badge">Video 1/5</span> Du sollst nicht töten</h2>
+                <h2><span class="c-badge">Video 1/7</span> Du sollst nicht töten</h2>
 
             </div>
         </div>
@@ -25,7 +25,7 @@ advertiser: true
     <li class="o-list-bare__item">
         <div class="o-box u-content-center">
 
-            <h2><span class="c-badge">Video 2/5</span> Gedenke des Sabbats ...</h2>
+            <h2><span class="c-badge">Video 2/7</span> Gedenke des Sabbats ...</h2>
 
         </div>
         <div class="o-ratio o-ratio--16:9 u-max-720 u-box-center">
@@ -36,7 +36,7 @@ advertiser: true
     <li class="o-list-bare__item">
         <div class="o-box u-content-center">
 
-            <h2><span class="c-badge">Video 3/5</span> Die Bewährung eures Glaubens ...</h2>
+            <h2><span class="c-badge">Video 3/7</span> Die Bewährung eures Glaubens ...</h2>
 
         </div>
         <div class="o-ratio o-ratio--16:9 u-max-720 u-box-center">
@@ -47,7 +47,18 @@ advertiser: true
     <li class="o-list-bare__item">
         <div class="o-box u-content-center">
 
-            <h2><span class="c-badge">Video 4/5</span> coming soon ...</h2>
+            <h2><span class="c-badge">Video 4/7</span> In der Schwachheit vollkommen</h2>
+
+        </div>
+        <div class="o-ratio o-ratio--16:9 u-max-720 u-box-center">
+            <iframe width="100%" height="100%" src="https://embed.joelmediatv.de/05628" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </li>
+
+    <li class="o-list-bare__item">
+        <div class="o-box u-content-center">
+
+            <h2><span class="c-badge">Video 5/7</span> coming soon ...</h2>
 
         </div>
         <!-- <div class="o-ratio o-ratio--16:9 u-max-720 u-box-center">
