@@ -80,12 +80,12 @@ advertiser: true
     <li class="o-list-bare__item">
         <div class="o-box u-content-center">
 
-            <h2><span class="c-badge">Video 7/7</span> coming soon ...</h2>
+            <h2><span class="c-badge">Video 7/7</span> Wie in einem Spiegel</h2>
 
         </div>
-        <!-- <div class="o-ratio o-ratio--16:9 u-max-720 u-box-center">
-            <iframe width="100%" height="100%" src="https://embed.joelmediatv.de/05524" frameborder="0" allowfullscreen></iframe>
-        </div> -->
+        <div class="o-ratio o-ratio--16:9 u-max-720 u-box-center">
+            <iframe width="100%" height="100%" src="https://embed.joelmediatv.de/05744" frameborder="0" allowfullscreen></iframe>
+        </div>
     </li>
 
 </ol>
