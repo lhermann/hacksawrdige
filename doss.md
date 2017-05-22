@@ -2,9 +2,9 @@
 layout: page
 title: Desmond T. Doss
 permalink: /doss/
-page-class: c-site-nav--inverted
 container-class: o-box--justify
 og-image: hacksawridge-header-moh.jpg
+nav-class: c-site-nav--gradient-black
 advertiser: true
 ---
 

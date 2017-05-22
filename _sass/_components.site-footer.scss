@@ -4,21 +4,33 @@
 $footer-height: $unit * 2;
 
 .c-site-footer {
-    .c-page--landing & {
-        background-image: linear-gradient(0deg, rgba($color-brand-secondary, 0) 0%, rgba($color-brand-secondary, .5) 45%, rgba($color-brand-secondary, .5) 55%, rgba($color-brand-secondary, 0) 100%);
-    }
-
     .o-layout__item {
         @include mq($until: tablet) {
-            text-align: center;
             margin-bottom: $unit;
+            text-align: center;
         }
     }
 }
 
+.c-site-footer--gradient {
+    position: relative;
+    padding-top: $unit * 2;
+
+    &:after {
+        @include clothoid-gradient($color-brand-secondary, 0deg);
+        position: absolute;
+        top: -($unit * 4);
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -99;
+        content: "";
+    }
+}
+
     .c-site-footer__logo {
-        opacity: .6;
         transition: opacity $global-transition;
+        opacity: .6;
 
         &:hover,
         &:focus,
@@ -28,6 +40,7 @@ $footer-height: $unit * 2;
 
         > img {
             max-height: $footer-height;
+
             @include mq($until: desktop) {
                 max-height: $footer-height * .6;
             }
@@ -36,13 +49,13 @@ $footer-height: $unit * 2;
 
     .c-site-footer__credits {
         @include font-size($font-size * .8);
-        line-height: 1.5;
         vertical-align: middle;
+        line-height: 1.5;
     }
 
     .c-site-footer__right {
         @include mq($from: tablet) {
-            font-size: 75%;
             line-height: $footer-height * 1.2;
+            font-size: 75%;
         }
     }

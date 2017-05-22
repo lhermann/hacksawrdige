@@ -3,6 +3,7 @@ layout: page
 title: Autorisierte Biografie
 permalink: /biografie/
 og-image: hacksawridge-teaser-biografie.jpg
+nav-class: c-site-nav--gradient
 ---
 
 <div class="o-media o-media@tablet u-margin-bottom-large">

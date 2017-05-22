@@ -89,6 +89,7 @@ $unit: $inuit-global-spacing-unit;
 @import '../node_modules/inuitcss/tools/tools.clearfix';
 @import '../node_modules/inuitcss/tools/tools.hidden';
 @import '../node_modules/sass-mq/mq';
+@import 'tools.clothoid';
 
 // Reassign lengthy font-size mixin to `font-size()`.
 @mixin font-size($args...) {

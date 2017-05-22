@@ -3,6 +3,7 @@ layout: page-full
 title: Videos
 permalink: /videos/
 og-image: hacksawridge-teaser-videos.jpg
+nav-class: c-site-nav--gradient-inverted
 advertiser: true
 ---
 
