@@ -1,11 +1,8 @@
-<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-<!-- <script src="/assets/js/plugins.js"></script> -->
-<script src="/assets/js/main.js"></script>
-
-<!-- Piwik -->
+<!-- Matomo -->
 <script type="text/javascript">
   var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["disableCookies"]);
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
@@ -16,5 +13,9 @@
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p><img src="//analytics.codethink.de/piwik.php?idsite=7&rec=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+<!-- End Matomo Code -->
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+<!-- <script src="/assets/js/plugins.js"></script> -->
+<script src="/assets/js/main.js?v=3"></script>

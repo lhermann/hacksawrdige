@@ -2,6 +2,8 @@
 # Main JS File
 ---
 
+{% include_relative _spambotscare-1.0.0.js %}
+
 /**
  * Resize Sections
  */
